@@ -1,0 +1,472 @@
+QRadioButton{
+color:rgb(214, 214, 214);
+font-family:'Helvetica CE 35 Thin';
+font-size:18px;
+}
+QCheckBox{
+color:rgb(214, 214, 214);
+font-family:'Helvetica CE 35 Thin';
+font-size:18px;
+}
+QLabel{
+font-size:18px;
+border-radius:3px;
+font-family:'Helvetica CE 35 Thin';
+color: rgb(203, 203, 203);
+}
+QFrame{
+	border:0px;
+}
+QComboBox{
+color: rgb(10, 10, 10);
+font-size:16px;
+font-family:'Helvetica CE 35 Thin';
+}
+QLineEdit{
+padding-left:5px;
+border-width:0px;
+border-radius:5px;
+font-size:14px;
+font-family:'Helvetica CE 35 Thin';
+background-color: rgb(231, 231, 231);
+color: rgb(0, 0, 0);
+}
+QLineEdit:focus{
+border:2px solid rgb(0,75, 0);
+border-radius:5px;
+}
+QToolTip{
+font-size:15pt;
+font-style:italic;
+color:#dddddd;
+border-radius:5px;
+background-color:rgb(25, 25, 25);
+border-width :1px;
+border-style:solid;
+border-color:rgb(235, 235, 235);
+font-size : 18;
+}
+QPushButton{
+background-color:rgb(59, 59, 59);
+border : 2px rgb(62, 62, 62) solid;
+color : rgb(222, 222, 222);
+font-size:18px;
+}
+QPushButton::Hover{
+background-color:rgb(95, 95, 95);
+border : 2px white solid;
+color :rgb(255, 255, 255);
+}
+#statusbar{
+	border-top:1px solid rgb(127, 127, 127);
+	background-color: rgb(36, 36, 36);
+}
+#centralWidget{
+background-color:rgb(100, 80, 200);
+border-top: 2px solid  rgb(198, 198, 199);
+border-left: 1px solid rgb(198, 198, 199);
+border-right: 1px solid rgb(198, 198, 199);
+}
+#pushButton_setting{
+background-color:rgb(36, 36, 36);
+icon-size : 128 128;
+}
+#pushButton_setting:hover{
+border-radius:40px;
+background-color:rgb(50, 50, 50);
+}
+#pushButton_setting::pressed {
+border-radius:40px;
+background-color:rgb(30, 30, 30);
+}
+#pushButton_help{
+background-color:rgb(36, 36, 36);
+icon-size : 128 128;
+}
+#pushButton_help:hover{
+border-radius:40px;
+background-color:rgb(50, 50, 50);
+}
+#pushButton_help::pressed{
+border-radius:40px;
+background-color:rgb(30, 30, 30);
+}
+#pushButton_aboutUS{
+background-color:rgb(36, 36, 36);
+icon-size : 128 128;
+}
+#pushButton_aboutUS:hover{
+border-radius:40px;
+background-color:rgb(50, 50, 50);
+}
+#pushButton_aboutUS::pressed{
+border-radius:40px;
+background-color:rgb(30, 30, 30);
+}
+#label_Clock{
+color:rgba(255, 0, 0,0.8);
+border:2px dotted rgb(149, 147, 141);
+border-radius:20px;
+font-family:'Digital-7 Mono';
+font-size:42px;
+}
+#label_under_Clock{
+color:rgba(159, 0, 0,0.25);
+background-color:rgb(30, 30, 30);
+border-radius:20px;
+font-family:'Digital-7 Mono';
+font-size:42px;
+}
+#pushButton_lock{
+background-color:rgb(36, 36, 36);
+icon-size : 128 128;
+}
+#pushButton_lock:hover{
+border-radius:40px;
+background-color:rgb(50, 50, 50);
+}
+#pushButton_lock::pressed{
+border-radius:40px;
+background-color:rgb(30, 30, 30);
+}
+#pushButton_exit{
+background-color:rgb(36, 36, 36);
+border-width:0px;
+border-image:url(":/images/Flat Black Icons/Close/001-close.png");
+icon-size : 128 128;
+}
+#pushButton_exit:hover{
+border-radius:20px;
+border-image:url(":/images/Flat Black Icons/Close/002-close.png");
+background-color:rgb(50, 50, 50);
+}
+#pushButton_exit::pressed{
+border-radius:20px;
+background-color:rgb(30, 30, 30);
+}
+#pushButton_ShowInfo{
+font-size:24px;
+font-family:'AgencyFB';
+border-radius:3px;
+}
+#pushButton_BackUp_Restore{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+}
+#pushButton_Stastics{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+}
+#pushButton_EditInfo{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+}
+#pushButton_AddStaff{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+}
+#pushButton_AddTeacher{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+}
+#pushButton_AddStudent{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+}
+#pushButton_Instagram{
+border:0px;
+background-color:rgba(36, 36, 36,0.1);
+border-image:url(":/images/Flat Black Icons/Social Media/002-instagram.png");
+border-top-left-radius:15px;
+border-bottom-left-radius:15px;
+}
+#pushButton_Instagram:hover{
+border-image:url(":/images/Flat Black Icons/Social Media/001-instagram-1.png");
+}
+#pushButton_Telegarm{
+border:0px;
+background-color:rgba(36, 36, 36,0.1);
+border-image:url(":/images/Flat Black Icons/Social Media/015-telegram.png");
+border-top-left-radius:15px;
+border-bottom-left-radius:15px;
+}
+#pushButton_Telegarm:hover{
+border-image:url(":/images/Flat Black Icons/Social Media/014-telegram-1.png");
+}
+#pushButton_Facebook{
+border:0px;
+background-color:rgba(36, 36, 36,0.1);
+border-image:url(":/images/Flat Black Icons/Social Media/009-facebook-1.png");
+border-top-left-radius:15px;
+border-bottom-left-radius:15px;
+}
+#pushButton_Facebook:hover{
+border-image:url(":/images/Flat Black Icons/Social Media/008-facebook-2.png");
+}
+#pushButton_Youtube{
+border:0px;
+background-color:rgba(36, 36, 36,0.1);
+border-image:url(":/images/Flat Black Icons/Social Media/007-youtube.png");
+border-top-left-radius:15px;
+border-bottom-left-radius:15px;
+}
+#pushButton_Youtube:hover{
+border-image:url(":/images/Flat Black Icons/Social Media/006-youtube-1.png");
+}
+#pushButton_Twitter{
+border:0px;
+background-color:rgba(36, 36, 36,0.1);
+border-image:url(":/images/Flat Black Icons/Social Media/004-twitter.png");
+border-top-left-radius:15px;
+border-bottom-left-radius:15px;
+}
+#pushButton_Twitter:hover{
+border-image:url(":/images/Flat Black Icons/Social Media/003-twitter-1.png");
+}
+#label_top_addstaff{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+color: rgb(203, 203, 203);
+}
+#label_top_addstaff_image{
+border-image:url(":/images/Flat Black Icons/Light Gray/029-hotel-staff.png");
+}
+#label_seperator{
+border-top:2px solid rgb(122, 122, 122);
+}
+#label_label_PersonalInfo_frame{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+color: rgb(203, 203, 203);
+}
+#label_OtherInfo_frame{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+color: rgb(203, 203, 203);
+}
+#pushButton_Close{
+background-color:rgb(36, 36, 36);
+border-width:0px;
+border-image:url(":/images/Flat Black Icons/left-arrow.png");
+icon-size : 128 128;
+}
+#pushButton_Close:hover{
+border-radius:24px;
+border-image:url(":/images/Flat Black Icons/left-arrow-b.png");
+}
+#pushButton_Close::pressed{
+border-radius:24px;
+background-color:rgb(30, 30, 30);
+}
+#pushButton_saveInfo{
+font-family:'AgencyFB';
+font-size:22px;
+}
+#label_Date{
+font-size:12pt;
+color:#00aa00;
+}
+#label_student_top{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+color: rgb(203, 203, 203);
+}
+#label_student_top_image{
+border-image:url(":/images/Flat Black Icons/Light Gray/033-student.png");
+}
+#label_teacher_top_image{
+border-image:url(":/images/Flat Black Icons/Light Gray/031-professor.png");
+}
+#label_teacher_top{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+color: rgb(203, 203, 203);
+}
+#label_backup_top{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+color: rgb(203, 203, 203);
+}
+#label_backup_top_image{
+border-image:url(":/images/Flat Black Icons/Light Gray/database.png");
+}
+#pushButton_Select_path{
+background-color:rgb(36, 36, 36);
+icon-size : 128 128;
+}
+#pushButton_Select_path:hover{
+border-radius:19px;
+background-color:rgb(50, 50, 50);
+}
+#pushButton_Select_path::pressed {
+border-radius:19px;
+background-color:rgb(30, 30, 30);
+}
+#pushButton_Select_path_restore_All{
+background-color:rgb(36, 36, 36);
+icon-size : 128 128;
+}
+#pushButton_Select_path_restore_All:hover{
+border-radius:19px;
+background-color:rgb(50, 50, 50);
+}
+#pushButton_Select_path_restore_All::pressed {
+border-radius:19px;
+background-color:rgb(30, 30, 30);
+}
+#pushButton_Select_path_restore_Student{
+background-color:rgb(36, 36, 36);
+icon-size : 128 128;
+}
+#pushButton_Select_path_restore_Student:hover{
+border-radius:19px;
+background-color:rgb(50, 50, 50);
+}
+#pushButton_Select_path_restore_Student::pressed {
+border-radius:19px;
+background-color:rgb(30, 30, 30);
+}
+#pushButton_Select_path_restore_Te{
+background-color:rgb(36, 36, 36);
+icon-size : 128 128;
+}
+#pushButton_Select_path_restore_Te:hover{
+border-radius:19px;
+background-color:rgb(50, 50, 50);
+}
+#pushButton_Select_path_restore_Te::pressed {
+border-radius:19px;
+background-color:rgb(30, 30, 30);
+}
+#pushButton_Select_path_restore_staff{
+background-color:rgb(36, 36, 36);
+icon-size : 128 128;
+}
+#pushButton_Select_path_restore_staff:hover{
+border-radius:19px;
+background-color:rgb(50, 50, 50);
+}
+#pushButton_Select_path_restore_staff::pressed {
+border-radius:19px;
+background-color:rgb(30, 30, 30);
+}
+#label_editinformation_top{
+font-size:24px;
+border-radius:3px;
+font-family:'AgencyFB';
+color: rgb(203, 203, 203);
+}
+#label_editinformation_top_image{
+border-image:url(":/images/Flat Black Icons/Light Gray/028-pen.png");
+}
+#pushButton_editGrades{
+font-size:20px;
+border-radius:3px;
+font-family:'AgencyFB';
+}
+#pushButton_refresh{
+background-color:rgb(36, 36, 36);
+border-width:0px;
+border-image:url(":/images/Flat Black Icons/Light Gray/019-reload.png");
+icon-size : 128 128;
+}
+#pushButton_refresh:hover{
+border-radius:24px;
+background-color:rgb(46, 46, 46);
+
+}
+#pushButton_refresh::pressed{
+border-radius:24px;
+background-color:rgb(30, 30, 30);
+}
+#label_Lock{
+border-image:url(':/images/Flat Black Icons/Light Gray/037-locked.png');
+}
+#pushButton_login{
+font-size:24px;
+border-radius:20px;
+font-family:'AgencyFB';
+font-family:'Helvetica CE 35 Thin';
+}
+#pushButton_forget{
+border-radius:5px;
+}
+#label_showinformation_top{
+font-size:24px;
+font-family:'AgencyFB';
+color: rgb(203, 203, 203);
+}
+#label_Showinformation_top_image{
+border-image:url(":/images/Flat Black Icons/Light Gray/026-eye.png");
+}
+
+#label_aboutUs_amirreza{
+	border: 2px dotted white;
+	border-radius:119px;
+	background-image:url(":/Devs/Developers/amirreza.jpg");
+}
+#label_aboutUs_shima{
+	border: 2px dotted white;
+	border-radius:119px;
+	background-image:url(":/Devs/Developers/shima.jpg");
+}
+
+#label_aboutus_shima_name
+{
+	font-size: 22px;
+	font-style: italic;
+	padding:5px;
+	font-weight:bold;
+}
+#label_aboutUs_amirreza_name
+{
+	font-size: 22px;
+	font-style: italic;
+	padding:5px;
+	font-weight:bold;
+}
+#label_aboutUs_shima_roles
+{
+	padding: 5px;
+}
+#label_aboutUs_amirreza_roles
+{
+	padding: 5px;
+}
+#label_settings_security
+{
+	font-family:'AgencyFB';
+	font-size: 28px;
+}
+#label_settings_environment
+{
+	font-family:'AgencyFB';
+	font-size: 28px;
+}
+#pushButton_editInformation_delete
+{
+	font-family:'AgencyFB';
+	font-size:22px;
+}
+
+
+
+
+
+
+
+
+
+

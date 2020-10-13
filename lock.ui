@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Lock</class>
+ <widget class="QMainWindow" name="Lock">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>229</x>
+      <y>40</y>
+      <width>371</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>371</width>
+      <height>421</height>
+     </size>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_Lock">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>200</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_pass">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>230</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>241</width>
+       <height>31</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>241</width>
+       <height>31</height>
+      </size>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>Password</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_login">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>290</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>111</width>
+       <height>41</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>111</width>
+       <height>41</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Log In</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_forget">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>380</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Forget?</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_lock_wrongpassword">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>340</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;Wrong Password !!! Try Again&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

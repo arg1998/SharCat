@@ -1,0 +1,126 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Flat Black Icons/Black/001-mode-circular-button.png</file>
+        <file>Flat Black Icons/Black/002-square-add-button.png</file>
+        <file>Flat Black Icons/Black/003-more-2.png</file>
+        <file>Flat Black Icons/Black/004-more-1.png</file>
+        <file>Flat Black Icons/Black/005-more.png</file>
+        <file>Flat Black Icons/Black/006-approve-circular-button.png</file>
+        <file>Flat Black Icons/Black/007-checked.png</file>
+        <file>Flat Black Icons/Black/008-cancel-1.png</file>
+        <file>Flat Black Icons/Black/009-cancel.png</file>
+        <file>Flat Black Icons/Black/010-ok-mark.png</file>
+        <file>Flat Black Icons/Black/011-tabs.png</file>
+        <file>Flat Black Icons/Black/012-save.png</file>
+        <file>Flat Black Icons/Black/013-upload-1.png</file>
+        <file>Flat Black Icons/Black/014-upload.png</file>
+        <file>Flat Black Icons/Black/015-download-1.png</file>
+        <file>Flat Black Icons/Black/016-download.png</file>
+        <file>Flat Black Icons/Black/017-rotate.png</file>
+        <file>Flat Black Icons/Black/018-loading.png</file>
+        <file>Flat Black Icons/Black/019-reload.png</file>
+        <file>Flat Black Icons/Black/020-cloud-upload.png</file>
+        <file>Flat Black Icons/Black/021-halloween-black-cat.png</file>
+        <file>Flat Black Icons/Black/022-black-evil-cat.png</file>
+        <file>Flat Black Icons/Black/023-presentation.png</file>
+        <file>Flat Black Icons/Black/024-bar-chart.png</file>
+        <file>Flat Black Icons/Black/025-backup.png</file>
+        <file>Flat Black Icons/Black/026-eye.png</file>
+        <file>Flat Black Icons/Black/027-inclined-pencil.png</file>
+        <file>Flat Black Icons/Black/028-pen.png</file>
+        <file>Flat Black Icons/Black/029-hotel-staff.png</file>
+        <file>Flat Black Icons/Black/030-professor-1.png</file>
+        <file>Flat Black Icons/Black/031-professor.png</file>
+        <file>Flat Black Icons/Black/032-student-1.png</file>
+        <file>Flat Black Icons/Black/033-student.png</file>
+        <file>Flat Black Icons/Black/034-key-1.png</file>
+        <file>Flat Black Icons/Black/035-key.png</file>
+        <file>Flat Black Icons/Black/036-unlocked.png</file>
+        <file>Flat Black Icons/Black/037-locked.png</file>
+        <file>Flat Black Icons/Black/038-tools-and-utensils.png</file>
+        <file>Flat Black Icons/Black/039-user-1.png</file>
+        <file>Flat Black Icons/Black/040-user.png</file>
+        <file>Flat Black Icons/Black/041-questions-circular-button.png</file>
+        <file>Flat Black Icons/Black/042-settings-2.png</file>
+        <file>Flat Black Icons/Black/043-calendar.png</file>
+        <file>Flat Black Icons/Black/044-star.png</file>
+        <file>Flat Black Icons/Black/045-users.png</file>
+        <file>Flat Black Icons/Black/046-settings-1.png</file>
+        <file>Flat Black Icons/Black/047-edit.png</file>
+        <file>Flat Black Icons/Black/048-settings.png</file>
+        <file>Flat Black Icons/Light Gray/001-mode-circular-button.png</file>
+        <file>Flat Black Icons/Light Gray/002-square-add-button.png</file>
+        <file>Flat Black Icons/Light Gray/003-more-2.png</file>
+        <file>Flat Black Icons/Light Gray/004-more-1.png</file>
+        <file>Flat Black Icons/Light Gray/005-more.png</file>
+        <file>Flat Black Icons/Light Gray/006-approve-circular-button.png</file>
+        <file>Flat Black Icons/Light Gray/007-checked.png</file>
+        <file>Flat Black Icons/Light Gray/008-cancel-1.png</file>
+        <file>Flat Black Icons/Light Gray/009-cancel.png</file>
+        <file>Flat Black Icons/Light Gray/010-ok-mark.png</file>
+        <file>Flat Black Icons/Light Gray/011-tabs.png</file>
+        <file>Flat Black Icons/Light Gray/012-save.png</file>
+        <file>Flat Black Icons/Light Gray/013-upload-1.png</file>
+        <file>Flat Black Icons/Light Gray/014-upload.png</file>
+        <file>Flat Black Icons/Light Gray/015-download-1.png</file>
+        <file>Flat Black Icons/Light Gray/016-download.png</file>
+        <file>Flat Black Icons/Light Gray/017-rotate.png</file>
+        <file>Flat Black Icons/Light Gray/018-loading.png</file>
+        <file>Flat Black Icons/Light Gray/019-reload.png</file>
+        <file>Flat Black Icons/Light Gray/020-cloud-upload.png</file>
+        <file>Flat Black Icons/Light Gray/021-halloween-black-cat.png</file>
+        <file>Flat Black Icons/Light Gray/022-black-evil-cat.png</file>
+        <file>Flat Black Icons/Light Gray/023-presentation.png</file>
+        <file>Flat Black Icons/Light Gray/024-bar-chart.png</file>
+        <file>Flat Black Icons/Light Gray/025-backup.png</file>
+        <file>Flat Black Icons/Light Gray/026-eye.png</file>
+        <file>Flat Black Icons/Light Gray/027-inclined-pencil.png</file>
+        <file>Flat Black Icons/Light Gray/028-pen.png</file>
+        <file>Flat Black Icons/Light Gray/029-hotel-staff.png</file>
+        <file>Flat Black Icons/Light Gray/030-professor-1.png</file>
+        <file>Flat Black Icons/Light Gray/031-professor.png</file>
+        <file>Flat Black Icons/Light Gray/032-student-1.png</file>
+        <file>Flat Black Icons/Light Gray/033-student.png</file>
+        <file>Flat Black Icons/Light Gray/034-key-1.png</file>
+        <file>Flat Black Icons/Light Gray/035-key.png</file>
+        <file>Flat Black Icons/Light Gray/036-unlocked.png</file>
+        <file>Flat Black Icons/Light Gray/037-locked.png</file>
+        <file>Flat Black Icons/Light Gray/038-tools-and-utensils.png</file>
+        <file>Flat Black Icons/Light Gray/039-user-1.png</file>
+        <file>Flat Black Icons/Light Gray/040-user.png</file>
+        <file>Flat Black Icons/Light Gray/041-questions-circular-button.png</file>
+        <file>Flat Black Icons/Light Gray/042-settings-2.png</file>
+        <file>Flat Black Icons/Light Gray/043-calendar.png</file>
+        <file>Flat Black Icons/Light Gray/044-star.png</file>
+        <file>Flat Black Icons/Light Gray/045-users.png</file>
+        <file>Flat Black Icons/Light Gray/046-settings-1.png</file>
+        <file>Flat Black Icons/Light Gray/047-edit.png</file>
+        <file>Flat Black Icons/Light Gray/048-settings.png</file>
+        <file>Flat Black Icons/Social Media/001-instagram-1.png</file>
+        <file>Flat Black Icons/Social Media/002-instagram.png</file>
+        <file>Flat Black Icons/Social Media/003-twitter-1.png</file>
+        <file>Flat Black Icons/Social Media/004-twitter.png</file>
+        <file>Flat Black Icons/Social Media/005-youtube-2.png</file>
+        <file>Flat Black Icons/Social Media/006-youtube-1.png</file>
+        <file>Flat Black Icons/Social Media/007-youtube.png</file>
+        <file>Flat Black Icons/Social Media/008-facebook-2.png</file>
+        <file>Flat Black Icons/Social Media/009-facebook-1.png</file>
+        <file>Flat Black Icons/Social Media/010-facebook.png</file>
+        <file>Flat Black Icons/Social Media/011-facebook-app-logo.png</file>
+        <file>Flat Black Icons/Social Media/012-telegram-3.png</file>
+        <file>Flat Black Icons/Social Media/013-telegram-2.png</file>
+        <file>Flat Black Icons/Social Media/014-telegram-1.png</file>
+        <file>Flat Black Icons/Social Media/015-telegram.png</file>
+        <file>Flat Black Icons/Close/001-close.png</file>
+        <file>Flat Black Icons/Close/002-close.png</file>
+        <file>Flat Black Icons/left-arrow.png</file>
+        <file>Flat Black Icons/left-arrow-b.png</file>
+        <file>Flat Black Icons/Light Gray/database.png</file>
+    </qresource>
+    <qresource prefix="/fonts"/>
+    <qresource prefix="/Devs">
+        <file>Developers/amirreza.jpg</file>
+        <file>Developers/shima.jpg</file>
+        <file>Developers/splachscreen.jpg</file>
+    </qresource>
+</RCC>

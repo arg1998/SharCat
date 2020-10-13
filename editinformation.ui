@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditInformation</class>
+ <widget class="QMainWindow" name="EditInformation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_11">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_9">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QPushButton" name="pushButton_Close">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Expanding</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_3">
+          <property name="minimumSize">
+           <size>
+            <width>140</width>
+            <height>80</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_editinformation_top">
+           <property name="geometry">
+            <rect>
+             <x>5</x>
+             <y>50</y>
+             <width>150</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Edit Information</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_editinformation_top_image">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>0</y>
+             <width>48</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>48</width>
+             <height>48</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>48</width>
+             <height>48</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_6">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_seperator">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>28</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>28</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Helvetica CE 35 Thin</family>
+          <pointsize>-1</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-size:18px;
+border-radius:3px;
+font-family:'Helvetica CE 35 Thin';
+color: rgb(203, 203, 203);</string>
+        </property>
+        <property name="text">
+         <string>Look For : </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_PersonType">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>28</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>28</height>
+         </size>
+        </property>
+        <property name="currentText">
+         <string/>
+        </property>
+        <item>
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Student</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Teacher</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Staff</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>28</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>28</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Helvetica CE 35 Thin</family>
+          <pointsize>-1</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-size:18px;
+border-radius:3px;
+font-family:'Helvetica CE 35 Thin';
+color: rgb(203, 203, 203);</string>
+        </property>
+        <property name="text">
+         <string>      Enter ID  :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_IDSerch">
+        <property name="minimumSize">
+         <size>
+          <width>170</width>
+          <height>28</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>170</width>
+          <height>28</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+        <property name="placeholderText">
+         <string>ID</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_refresh">
+        <property name="minimumSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>Reload Information</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_editGrades">
+        <property name="minimumSize">
+         <size>
+          <width>130</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>AgencyFB</family>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>Edit Grades
+For This Student</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>Edit Grades</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/images/Flat Black Icons/Light Gray/027-inclined-pencil.png</normaloff>:/images/Flat Black Icons/Light Gray/027-inclined-pencil.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QFrame" name="frame_personalIno">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLabel" name="label_12">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Helvetica CE 35 Thin</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>First Name :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_10">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Helvetica CE 35 Thin</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>Last Name :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_8">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Helvetica CE 35 Thin</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>ID :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_13">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Helvetica CE 35 Thin</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>Phone :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_14">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Helvetica CE 35 Thin</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>Email : </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_9">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Helvetica CE 35 Thin</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>Sex :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_15">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Helvetica CE 35 Thin</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>Birth Date :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_11">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Helvetica CE 35 Thin</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>Username :</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QLineEdit" name="lineEdit_Lname">
+             <property name="minimumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="readOnly">
+              <bool>false</bool>
+             </property>
+             <property name="placeholderText">
+              <string>First Name</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_Fname">
+             <property name="minimumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>Last Name </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_Id">
+             <property name="minimumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>ID</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_Phone">
+             <property name="minimumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>Phone Number</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_Email">
+             <property name="minimumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>E_Mail Address</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="comboBox_sex">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>50</width>
+               <height>28</height>
+              </size>
+             </property>
+             <item>
+              <property name="text">
+               <string>Male</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Female</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_BirthDat">
+             <property name="minimumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>Birth Date</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_UserName">
+             <property name="minimumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>220</width>
+               <height>28</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>Student Username</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <item>
+         <widget class="QFrame" name="frame_StudentInfo">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>160000</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QLabel" name="label_20">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Field Name :</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_16">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Entry Year :</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_19">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Total Terms :</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_22">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Current Term :</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_18">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Total Units :</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_17">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Passed Units :</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QComboBox" name="comboBox_Student_Field">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>190</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Computer Engineering</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Chemistry Engineering</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Industrial Engineering</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Petroleum Engineering</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEdit_EntryYear">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>220</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>Entry Year</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEdit_TotalTerms">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>220</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>total Term</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEdit_CurrentTerm">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>220</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>Current Term</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEdit_TotalUnits">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>220</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>Total Units</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEdit_PassedUnits">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>220</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>Passed Units</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_TeacherInfo">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>1666666</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <widget class="QLabel" name="label_23">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Degree :</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_24">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Scientifc Board :</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_26">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Field :</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_25">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Hours in Week :</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QComboBox" name="comboBox_Teacher_Degree">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>190</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Computer Engineering</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Chemistry Engineering</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Industrial Engineering</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Petroleum Engineering</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox_Techer_SB">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>190</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <item>
+                <property name="text">
+                 <string>True</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>False</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEdit_Teacher_field">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>220</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>Field </string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEdit_Teacher_hours">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>220</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="placeholderText">
+                <string>Work hours in a Week</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_StaffInfo">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_7">
+             <item>
+              <widget class="QLabel" name="label_28">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Department :</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_27">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Type :</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_29">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Helvetica CE 35 Thin</family>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Workshift :</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <item>
+              <widget class="QComboBox" name="comboBox_Staff_Dep">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>9999</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <item>
+                <property name="text">
+                 <string>#1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>#2</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox_Staff_Type">
+               <property name="minimumSize">
+                <size>
+                 <width>200</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>9999</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <item>
+                <property name="text">
+                 <string>True</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>False</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox_Staff_Shift">
+               <property name="minimumSize">
+                <size>
+                 <width>170</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>9999</width>
+                 <height>28</height>
+                </size>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Day Shift</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Night Shift</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_editInformation_delete">
+        <property name="minimumSize">
+         <size>
+          <width>160</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Delete</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_saveInfo">
+        <property name="minimumSize">
+         <size>
+          <width>160</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>160</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>Save Changes</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton_Close</tabstop>
+  <tabstop>comboBox_PersonType</tabstop>
+  <tabstop>lineEdit_IDSerch</tabstop>
+  <tabstop>pushButton_refresh</tabstop>
+  <tabstop>pushButton_saveInfo</tabstop>
+  <tabstop>lineEdit_Lname</tabstop>
+  <tabstop>lineEdit_Fname</tabstop>
+  <tabstop>lineEdit_Id</tabstop>
+  <tabstop>lineEdit_Phone</tabstop>
+  <tabstop>lineEdit_Email</tabstop>
+  <tabstop>comboBox_sex</tabstop>
+  <tabstop>lineEdit_BirthDat</tabstop>
+  <tabstop>lineEdit_UserName</tabstop>
+  <tabstop>comboBox_Student_Field</tabstop>
+  <tabstop>lineEdit_EntryYear</tabstop>
+  <tabstop>lineEdit_TotalTerms</tabstop>
+  <tabstop>lineEdit_CurrentTerm</tabstop>
+  <tabstop>lineEdit_TotalUnits</tabstop>
+  <tabstop>lineEdit_PassedUnits</tabstop>
+  <tabstop>comboBox_Teacher_Degree</tabstop>
+  <tabstop>comboBox_Techer_SB</tabstop>
+  <tabstop>lineEdit_Teacher_field</tabstop>
+  <tabstop>lineEdit_Teacher_hours</tabstop>
+  <tabstop>comboBox_Staff_Dep</tabstop>
+  <tabstop>comboBox_Staff_Type</tabstop>
+  <tabstop>comboBox_Staff_Shift</tabstop>
+  <tabstop>pushButton_editGrades</tabstop>
+ </tabstops>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
